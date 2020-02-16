@@ -57,7 +57,7 @@ train_data, train_labels, eval_data, eval_labels = load_fashion_data()
 
 # Variablen
 dimension = 784  # 28x28 Pixels
-number_of_classes = 10
+number_of_classes = 10  # die Elemente in fashion_class_labels
 
 # Eingabe (Pixels)
 X = tf.placeholder(tf.float32, [None, dimension], name="X")
